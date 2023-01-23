@@ -84,23 +84,22 @@ display: none;
 }
 
 .navbar {
-flex-direction: column;
-align-items: flex-start;
+flex-direction: space-between;
+align-items: center;
 
 }
 
 
 .navbar-links ul {
 
-
     width: 100%;
     flex-direction: column;
-
+justify-content: flex-end;
 }
 
 .navbar-links li {
-
-    text-align: center;
+  flex-direction: end;
+    text-align: end;
 
 }
 
@@ -193,7 +192,7 @@ color: darkred(73, 55, 49);
 
   .game_features a:hover {
 
-    color: skyblue;
+    color: greenyellow;
 }
 
 
