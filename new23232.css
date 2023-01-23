@@ -120,7 +120,7 @@ align-items: flex-start;
 
     font-family: Mega;
 padding-top: 20px;
- 
+ justify-content: space-around;
 }
 
 
@@ -142,7 +142,7 @@ padding-top: 20px;
 
   .card-text {
 
-    color: rgb(192, 87, 26);
+    color: rgb(243, 240, 61);
   }
 
   .card-title {
@@ -156,8 +156,9 @@ padding-top: 20px;
   }
 
   .game_features{
-  color:darkred;  
-    font-weight: lighter;
+  color: black;
+  font-family: sans-serif;  
+    font-weight: bolder;
 list-style: none;
   }
 
@@ -165,17 +166,34 @@ list-style: none;
 
 list-style: none;
 font-weight: lighter;
-  }
 
+  }
+  .game_features ul li{
+font-family: Mega;
+  color: blue;
+    list-style: none;
+    font-weight: lighter;
+    
+      }
+
+
+ 
   .game_features p {
 font-weight: bold;
+font-family: Mega;
 color: darkred(73, 55, 49);
 
   }
    
+  .game_features ul li a {
+
+    color: skyblue;
+}
+
+
   .game_features a:hover {
 
-    color: green;
+    color: skyblue;
 }
 
 
